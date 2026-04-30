@@ -45,4 +45,13 @@
         <servlet-name>listProdctosXPedido</servlet-name>
         <url-pattern>/listarproductospedido</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>importData</servlet-name>
+        <servlet-class>com.politecnicomalaga.tienda.view.importData</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>importData</servlet-name>
+        <url-pattern>/importar</url-pattern>
+    </servlet-mapping>
+
 </web-app>
